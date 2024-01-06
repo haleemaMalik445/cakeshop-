@@ -1,0 +1,19 @@
+*{margin: 0px;
+padding: 0px;}
+body{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+.container{border: 2px solid red;
+height: 1200px;}
+.Slider{margin-top: 150px;
+border: 2px solid purple;
+height: 280px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-right: 35px;
+margin-left: 35px;
+}
+.slide{height: 270px;
+width: 280px;
+border: 2px solid yellow;}
