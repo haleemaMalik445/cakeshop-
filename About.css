@@ -22,7 +22,7 @@ body {
 .headGraph {
     border: 2px solid black;
     height: 80px;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .headGraph h1 {
@@ -60,7 +60,7 @@ body {
     margin-left: 60px;
     color: rgba(255, 255, 255, 0.89);
     margin-bottom: 60px;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .graph img {
