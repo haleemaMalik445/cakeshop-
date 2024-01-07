@@ -1,13 +1,125 @@
-*{margin: 0px;
-padding: 0px;}
-body{margin: 0px;
-padding: 0px;
-box-sizing: border-box;}
-.container{border: 2px solid red;
-height: 900px;}
-.head{border: 2px solid green;
-height: 80px;}
-.navbar{border: 2px solid purple;
-height: 60px;}
-.home{border: 2px solid yellow;
-height: 600px;}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    border: 2px solid black;
+    height: 730px;
+}
+
+.head {
+    border: 2px solid black;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons {
+    border: 2px solid black;
+    height: 78px;
+    width: 160px;
+    margin-left: 20px;
+}
+
+.icons i {
+    color: white;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.icons i:hover {
+    color: rgb(255, 165, 0);
+}
+
+.logo {
+    border: 2px solid black;
+    height: 78px;
+    margin-right: 20px;
+    width: 160px;
+}
+
+.logo img {
+    height: 78px;
+    width: 150px;
+}
+
+.navbar {
+    border: .1px solid black;
+    height: 17px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+@keyframes slidetop {
+    from {
+        margin-top: 24%;
+    }
+
+    to {}
+}
+
+.home {
+    border: .1px solid black;
+    margin-top: 0.1px;
+    height: 600px;
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home h1 {
+    margin-left: 75px;
+    margin-top: 160px;
+    color: white;
+    animation-name: slidetop;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home button {
+    margin-left: 75px;
+
+    margin-top: 32px;
+    border-radius: 4px;
+    color: black;
+    background-color: orange;
+    border: orange;
+    padding: 12px;
+    font-size: medium;
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+.home button:hover {
+    background: none;
+    color: orange;
+    border: 2px solid orange;
+}

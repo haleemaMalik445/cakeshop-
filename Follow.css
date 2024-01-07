@@ -9,6 +9,10 @@ body {
     background-color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .head {
     height: 260px;
     border: 2px solid black;
