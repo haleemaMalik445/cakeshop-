@@ -1,0 +1,13 @@
+*{margin: 0px;
+padding: 0px;}
+body{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+.container{border: 2px solid red;
+height: 900px;}
+.head{border: 2px solid green;
+height: 80px;}
+.navbar{border: 2px solid purple;
+height: 60px;}
+.home{border: 2px solid yellow;
+height: 600px;}
